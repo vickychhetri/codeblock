@@ -18,6 +18,7 @@ int main()
    CalculatorManager manager(x,y);
    float result=manager.getResult();
 
+    FileManager manager(x,y);
    if(result<0){
     throw result;
    }
@@ -25,6 +26,9 @@ int main()
     cout<<"========================"<<endl;
     cout << "Sum of Two Number is (value > 0): " << result<<endl;
     cout<<"========================"<<endl;
+
+   FileManager managerF(x,y);
+
   }
    catch(float result){
 
