@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1649183237 source:v:\c++\helloworld\hellowworld\main.cpp
+	<iostream>
+	<CalculatorManager.h>
+
+1649182109 source:v:\c++\helloworld\hellowworld\src\calculatormanager.cpp
+	"CalculatorManager.h"
+
+1649182215 v:\c++\helloworld\hellowworld\include\calculatormanager.h
+
